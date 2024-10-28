@@ -1,0 +1,29 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.rss-link {
+  text-decoration: none;
+}
+
+.svg-icon {
+  width: 1.5em;
+  height: 1.5em;
+  display: inline-block;
+  fill: currentColor;
+  vertical-align: text-bottom;
+  overflow: visible;
+}

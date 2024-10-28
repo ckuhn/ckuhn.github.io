@@ -1,0 +1,31 @@
+<footer class="footer">
+  <ul>
+    {% if site.email -%}
+    <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+    {%- endif %}
+
+    <li>
+      <a href="https://www.linkedin.com/in/connorkuhn" target="_blank" title="Linkedin">
+        <svg class="svg-icon">
+          <use xlink:href="/assets/svg/socials.svg#linkedin"></use>
+        </svg>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://www.github.com/ckuhn" target="_blank" title="Github">
+        <svg class="svg-icon">
+          <use xlink:href="/assets/svg/socials.svg#github"></use>
+        </svg>
+      </a>
+    </li>
+
+    <li>
+      <a class="rss-link" href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
+        <svg class="svg-icon">
+          <use xlink:href="/assets/svg/socials.svg#rss"></use>
+        </svg> <span>subscribe</span>
+      </a>
+    </li>
+  </ul>
+</footer>

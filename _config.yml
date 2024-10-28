@@ -1,0 +1,25 @@
+title: connor kuhn
+description: >-
+  welcome to my blog.
+
+email: connorisoutside@gmail.com
+
+baseurl: ""
+url: "ckuhn.github.io"
+
+remote_theme: riggraz/no-style-please
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-them
+
+permalink: /:slug.html
+
+theme_config:
+  appearance: "auto"
+  back_home_text: "../"
+  date_format: "%Y-%m-%d"
+  show_description: true
+
+sass:
+  style: :compressed
