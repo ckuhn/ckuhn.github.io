@@ -7,7 +7,7 @@
     <li>
       <a href="https://www.linkedin.com/in/connorkuhn" target="_blank" title="Linkedin">
         <svg class="svg-icon">
-          <use xlink:href="/assets/svg/socials.svg#linkedin"></use>
+          <use xlink:href="{{ '/assets/svg/socials.svg#linkedin' | relative_url }}"></use>
         </svg>
       </a>
     </li>
@@ -15,7 +15,7 @@
     <li>
       <a href="https://www.github.com/ckuhn" target="_blank" title="Github">
         <svg class="svg-icon">
-          <use xlink:href="/assets/svg/socials.svg#github"></use>
+          <use xlink:href="{{ '/assets/svg/socials.svg#github' | relative_url }}"></use>
         </svg>
       </a>
     </li>
@@ -23,7 +23,7 @@
     <li>
       <a class="rss-link" href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
         <svg class="svg-icon">
-          <use xlink:href="/assets/svg/socials.svg#rss"></use>
+          <use xlink:href="{{ '/assets/svg/socials.svg#rss' | relative_url }}"></use>
         </svg> <span>subscribe</span>
       </a>
     </li>
