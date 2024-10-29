@@ -1,7 +1,13 @@
-title: connor kuhn
+title: climbcode by climbcon
 description: >-
-  welcome to my blog.
+  who needs a social life when you can obsess over algorithms and belay devices?
+  join me as i share my world of programming, rock climbing, and mountain biking.
+  expect rants, questionable climbing tips, and the occasional outdoor mishap.
+  <br/>
+  <br/>
+  send questions and comments to my email below, thanks for reading! 
 
+author: connor kuhn
 email: connorisoutside@gmail.com
 
 baseurl: ""
@@ -11,7 +17,7 @@ remote_theme: riggraz/no-style-please
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-remote-them
+  - jekyll-remote-theme
 
 permalink: /:slug.html
 

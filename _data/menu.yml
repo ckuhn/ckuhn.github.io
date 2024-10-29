@@ -6,9 +6,9 @@ entries:
       show_more_text: see archive...
       show_more_url: archive.html
 
-  - title: posts by category
-    post_list:
-      category: clojure
-      show_more: true
-      show_more_text: see more posts...
-      show_more_url: clojure-archive.html
+  # - title: category -> clojure
+  #   post_list:
+  #     category: clojure
+  #     show_more: true
+  #     show_more_text: see more posts...
+  #     show_more_url: clojure-archive.html
